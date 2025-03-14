@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building project...'
-                    shh 'g++ main.cpp -o YOUR_SRN-1'
+                    sh 'g++ main.cpp -o YOUR_SRN-1'
                 }
             }
         }
